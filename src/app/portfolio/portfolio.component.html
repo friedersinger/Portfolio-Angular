@@ -1,1 +1,135 @@
-<p>portfolio works!</p>
+<div class="portfolio">
+  <div class="heading">
+    <div class="line-heading">
+      <img src="/../assets/img/line_blue_small.png" />
+      <h2>Portfolio</h2>
+    </div>
+
+    <div class="description">
+      <p>
+        This page is a sample of my work! Scroll down to view other projects I
+        have developed.
+      </p>
+    </div>
+  </div>
+
+  <div class="projects" data-aos="fade-right" data-aos-duration="1000">
+    <div
+      (mouseenter)="changePolloLoco = true"
+      (mouseleave)="changePolloLoco = false"
+      class="portfolio-img"
+    >
+      <img src="/../assets/img/El_Pollo_Loco_Laptop.png" />
+      <div *ngIf="changePolloLoco" class="hover-project">
+        <div class="hover-description">
+          <div class="hover-text">
+            <h4>Night Patrol</h4>
+            <span
+              >Jump, run and throw game based on object-oriented approach. Help
+              the Police to find coins and waterbombs to fight against the crazy
+              Gangster</span
+            >
+            <span style="color: #000000">JavaScript | HTML | CSS</span>
+          </div>
+        </div>
+        <div class="hover-buttons">
+          <a
+            href="https://github.com/friedersinger/Night_Patrol"
+            target="_blank"
+            ><button mat-button color="primary">Github</button></a
+          >
+          <a href="https://night-patrol.netlify.app" target="_blank"
+            ><button mat-button color="primary">Live Test</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      (mouseenter)="changeJoin = true"
+      (mouseleave)="changeJoin = false"
+      class="portfolio-img"
+    >
+      <img src="/../assets/img/logo_join.png" />
+      <div *ngIf="changeJoin" class="hover-project">
+        <div class="hover-description">
+          <div class="hover-text">
+            <h4>Join</h4>
+            <span
+              >Task manager inspired by the Kanban System. Create and organize
+              tasks using drag and drop functions, assign users and
+              categories.</span
+            >
+            <span style="color: #000000">JavaScript | HTML | CSS</span>
+          </div>
+        </div>
+        <div class="hover-buttons">
+          <a href="https://github.com/friedersinger/JOIN" target="_blank"
+            ><button mat-button color="primary">Github</button></a
+          >
+          <a
+            href="https://gruppe-557.developerakademie.net/JOIN/index.html"
+            target="_blank"
+            ><button mat-button color="primary">Live Test</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      (mouseenter)="changePortfolio = true"
+      (mouseleave)="changePortfolio = false"
+      class="portfolio-img"
+    >
+      <img src="/../assets/img/pokedex_laptop.png" />
+      <div *ngIf="changePortfolio" class="hover-project">
+        <div class="hover-description">
+          <div class="hover-text">
+            <h4>Pokedex</h4>
+            <span
+              >Bades on the PokeAPI a simple libary that provides and catalogues
+              pokemon information.</span
+            >
+            <span style="color: #000000">JavaScript | HTML | CSS | API</span>
+          </div>
+        </div>
+        <div class="hover-buttons">
+          <a href="https://github.com/friedersinger/Pokedex" target="_blank"
+            ><button mat-button color="primary">Github</button></a
+          >
+          <a href="https://pokedex-frieder.netlify.app" target="_blank"
+            ><button mat-button color="primary">Live Test</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      (mouseenter)="changePokedex = true"
+      (mouseleave)="changePokedex = false"
+      class="portfolio-img"
+    >
+      <img src="/../assets/img/portfolio_laptop.png" />
+      <div *ngIf="changePokedex" class="hover-project">
+        <div class="hover-description">
+          <div class="hover-text">
+            <h4>Portfolio</h4>
+            <span>My homepage with the portfolio - build with Angular.</span>
+            <span style="color: #000000">Angular | HTML | SCSS</span>
+          </div>
+        </div>
+        <div class="hover-buttons">
+          <a
+            href="https://github.com/friedersinger/Portfolio-Angular"
+            target="_blank"
+            ><button mat-button color="primary">Github</button></a
+          >
+          <a href="https://frieder-singer.com" target="_blank"
+            ><button mat-button color="primary">Live Test</button></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blue-shadow">
+    <img src="/../assets/img/light_blue_shadow.png" />
+  </div>
+</div>

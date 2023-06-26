@@ -1,1 +1,26 @@
-<p>header works!</p>
+<div (window:resize)="onResize($event)" class="header">
+  <div class="header-name" routerLink="/">
+    <h3>F</h3>
+    <h3 style="color: #00bee8">r</h3>
+    <h3>ie</h3>
+    <h3 style="color: #4b47ff">d</h3>
+    <h3>er</h3>
+  </div>
+
+  <div *ngIf="!mobile" class="header-navigation" routerLink="/">
+    <a href="#about-me">About me</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+  </div>
+
+  <div *ngIf="mobile">
+    <button mat-button [matMenuTriggerFor]="menu">
+      <img src="/../assets/img/burger.png" />
+    </button>
+    <mat-menu #menu="matMenu">
+      <a href="#about-me"><button mat-menu-item>About me</button></a>
+      <a href="#skills"><button mat-menu-item>Skills</button></a>
+      <a href="#portfolio"><button mat-menu-item>Portfolio</button></a>
+    </mat-menu>
+  </div>
+</div>

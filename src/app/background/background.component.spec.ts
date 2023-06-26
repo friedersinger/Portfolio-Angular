@@ -6,10 +6,11 @@ describe('BackgroundComponent', () => {
   let component: BackgroundComponent;
   let fixture: ComponentFixture<BackgroundComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [BackgroundComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [BackgroundComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(BackgroundComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
