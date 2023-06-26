@@ -76,13 +76,24 @@
   }
 }
 
-@media (max-width: 850px) {
-}
-
 @media (max-width: 750px) {
   .name-impressum {
     h2 {
       font-size: 25px;
+    }
+  }
+
+  .name-impressum {
+    display: flex;
+    flex-direction: row;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    h3 {
+      margin-top: 16px !important;
+      margin-bottom: 0 !important;
+      font-size: 35px;
     }
   }
 
@@ -98,6 +109,11 @@
 @media (max-width: 750px) {
   .footer {
     flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-div {
+    gap: 10px;
   }
 
   .impressum {

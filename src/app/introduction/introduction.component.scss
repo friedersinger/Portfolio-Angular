@@ -148,7 +148,6 @@
 
   .name {
     font-size: 95px !important;
-    height: 95px;
   }
 
   .frontend-developer {
@@ -194,7 +193,6 @@
 
   .name {
     font-size: 90px !important;
-    height: 87px;
   }
 
   .frontend-developer {
@@ -286,7 +284,7 @@
 
   .name {
     font-size: 75px !important;
-    height: 73px;
+    height: 100px;
   }
 
   .frontend-developer {
@@ -333,7 +331,7 @@
 
   .name {
     font-size: 65px !important;
-    height: 63px;
+    height: 90px;
   }
 
   .frontend-developer {
@@ -374,13 +372,13 @@
   }
 
   .iAm {
-    font-size: 28px !important;
+    font-size: 38px !important;
     margin-right: -16px;
   }
 
   .name {
-    font-size: 55px !important;
-    height: 54px;
+    font-size: 50px !important;
+    height: 70px;
   }
 
   .frontend-developer {
@@ -417,13 +415,13 @@
 
 @media (max-width: 450px) {
   .iAm {
-    font-size: 16px !important;
+    font-size: 32px !important;
     margin-right: -12px;
   }
 
   .name {
-    font-size: 45px !important;
-    height: 45px;
+    font-size: 40px !important;
+    height: 60px !important;
   }
 
   .frontend-developer {
@@ -457,16 +455,6 @@
 }
 
 @media (max-width: 450px) {
-  .iAm {
-    font-size: 22px !important;
-    margin-right: -12px;
-  }
-
-  .name {
-    font-size: 45px !important;
-    height: 45px;
-  }
-
   .frontend-developer {
     font-size: 26px !important;
   }
