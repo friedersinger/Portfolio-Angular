@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 200px);
   width: 100vw;
   overflow-x: clip;
   max-width: 100%;
@@ -32,6 +32,23 @@
 
   img {
     height: 800px;
+  }
+}
+
+.background-img {
+  position: absolute;
+
+  z-index: -1;
+
+  img {
+    width: 100vw;
+    height: 100vh;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    object-fit: cover;
   }
 }
 
