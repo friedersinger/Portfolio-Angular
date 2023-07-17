@@ -70,7 +70,7 @@
   height: 40px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  border: 1px solid #4b47ff;
+  border: 1px solid rgb(255, 204, 0);
   color: rgba(252, 251, 251, 0.8);
   padding-left: 10px;
   box-sizing: border-box;
@@ -82,13 +82,13 @@
   }
 
   &:hover {
-    border: 1px solid #00bee8;
+    border: 1px solid rgb(255, 233, 130);
     cursor: pointer;
   }
 
   &:focus {
     outline: none !important;
-    border: 1px solid #00bee8;
+    border: 1px solid rgb(255, 233, 130);
   }
 }
 
@@ -98,7 +98,7 @@
   height: 250px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  border: 1px solid #4b47ff;
+  border: 1px solid rgb(255, 204, 0);
   color: rgba(252, 251, 251, 0.8);
   padding-left: 10px;
   box-sizing: border-box;
@@ -112,13 +112,13 @@
   }
 
   &:hover {
-    border: 1px solid #00bee8;
+    border: 1px solid rgb(255, 233, 130);
     cursor: pointer;
   }
 
   &:focus {
     outline: none !important;
-    border: 1px solid #00bee8;
+    border: 1px solid rgb(255, 233, 130);
   }
 }
 
